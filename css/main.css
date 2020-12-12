@@ -1,0 +1,664 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body
+{
+	margin: 0 auto;
+		
+	
+}
+
+.over
+{
+	width: 100%;
+	height: 6000px;
+	background-color: skyblue;
+		
+}
+.top
+{
+	
+	width: 100%;
+	height: 720px;
+	background-image: url("../images/header_01.png");
+/*	float: left;*/
+}
+.top1
+{
+	width: 40%;
+	height: 80px;
+/*	background-color: pink;*/
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top2
+{
+	width: 60%;
+	height: 80px;
+/*	background-color: black;*/
+	float: right;
+}
+		ul
+		{
+			padding: 0;
+/*			margin-top: 10px;*/
+		/*
+			display: flex;
+			justify-content: center;
+		*/
+		}
+		ul li
+		{
+			float: left;
+			width: 40px;
+		/*	margin: 10px;*/
+			list-style: none;
+			padding: 7px 30px ;
+			display: flex;
+			justify-content: center;
+
+		}
+
+		ul li a
+		{
+			float: left;
+			width: 100px;
+			text-decoration: none;
+			list-style: none;
+			color: white;
+			font-family: menu;
+			font-size: 17px; 
+		}
+
+
+.clear
+{
+	clear: both;
+}
+
+.bftop
+{
+	width: 100%;
+	height: 620px;
+	background-color: red;
+}
+
+.bftop1
+{
+	width: 100%;
+	height: 640px;
+	background-color: blueviolet;
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+		.bftop1a
+		{
+			margin-top: 50px;
+			width: 800px;
+			height: 200px;
+			font-family: we;
+			font-size: 40px;
+			color: white;
+			background-color: deepskyblue;
+				display: flex;
+	justify-content: center;
+	align-items: center;
+		}
+
+		.bftop1b
+		{
+			margin-top: 50px;
+			width: 800px;
+			height: 100px;
+			font-family: menu;
+			font-size: 15px;
+			color: white;
+			background-color: blue;
+				display: flex;
+	justify-content: center;
+	align-items: center;
+			text-align: center;
+		}
+
+.bftop2
+{
+	width: 100%;
+	height: 100px;
+	background-color: lightpink;
+}
+
+button
+{
+	margin-top: 40px;
+	width: 150px;
+	height: 50px;
+	font-size: 15px;
+	font-family: menu;
+	color:aqua;
+	background-color: transparent;
+	border-color:#00e0d0;
+	border: solid;
+	transition: all 1s linear;
+}
+
+.logoto
+{
+	width: 100%;
+	height: 410px;
+	background-color: white;
+
+}
+
+	.inlogoleft
+{
+	width: 45%;
+	height: 410px;
+/*	background-color: brown;*/
+	float: left;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+		.inlogoleft1
+	{
+		width: 410px;
+		height: 320px;
+		background-color: white;
+		padding-top: 90px;
+	}
+
+	.inlogoright
+{
+	width: 55%;
+	height: 410px;
+/*	background-color: pink;*/
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+		.inlogoright1
+	{
+		width: 100%;
+		height: 340px;
+/*		background-color: aqua;	*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+.text1
+{
+	width: 100%;
+	height: 100px;
+/*	background-color: bisque;*/
+	font-family: we;
+	font-size: 30px;
+	color: black;
+			display: flex;
+	
+		align-items: center;
+	
+}
+
+.text2
+{
+	width: 100%;
+	height: 150px;
+/*	background-color: bisque;*/
+	font-family: menu;
+	font-size: 15px;
+	color: black;
+			display: flex;
+	flex-direction: column;
+		align-items: center;
+	
+	
+}
+
+.text3
+{
+	width: 100%;
+	height: 20px;
+/*	background-color: bisque;*/
+	font-family: menu;
+	font-size: 25px;
+	color: white;
+			display: flex;
+	justify-content: center;
+		align-items: center;
+	
+}
+
+.video
+{
+	width: 100%;
+	height: 550px;
+	background: url("../images/video_02.png");
+	display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+.EX
+{
+	width: 100%;
+	height: auto;
+	background-color: white;
+/*
+	display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+*/
+	}
+	.extext
+{
+	width: 100%;
+	height: 70px;
+	font-family: we;
+	font-size: 30px;
+	color: black;
+	background-color: aquamarine;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+
+	.extext1
+{
+	width: 100%;
+	height: 100px;
+	font-family: we;
+	font-size: 15px;
+	color: black;
+	background-color: aquamarine;
+		display: flex;
+		flex-direction: column;
+/*		justify-content: center;*/
+		align-items: center;
+}
+
+.box
+{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.boxinside
+{
+	width: 100%;
+	height: 250px;
+	background-color: white;
+		display: flex;
+
+	justify-content: center;
+	align-items: center;
+	margin: 2px;
+	
+}
+.lilbox
+{
+	width: 26%;
+	height: 246px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	font-family: menu;
+	margin: 2px;
+/*
+	border-style: solid;
+	
+*/
+		}
+
+		.lilbox img:hover
+		{
+		transform: scale(1.5)
+		}
+
+		.lilbox img:hover
+		{
+
+		}
+
+		.lilbox img
+		{
+			transition:all 0.5s
+		}
+
+	.endEX
+{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+}
+.meet
+{
+	width: 100%;
+	height: 710px;
+	background: url("../images/meet_02.png");
+}
+ .textmeet
+{
+	width: 100%;
+	height: 150px;
+/*	background-color: cadetblue;*/
+	display: flex;
+		flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: we;
+	font-size: 15px;
+	color: white;
+}
+
+	.picmeet
+{
+	width: 100%;
+	height: 410px;
+/*	background-color: lightsalmon;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;	
+
+}
+		.pic
+{
+	width: 16%;
+	height: 280px;
+	border-style: solid;
+	border-color: white;
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 10px;
+	
+}
+			.inpic
+{
+	width: 99%;
+	height: 75%;
+
+}
+
+			.inpic1
+{
+	width: 99%;
+	height: 25%;
+/*	background-color: slateblue;	*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	font-family: menu;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+button:hover
+{
+/*	background-color: white;*/
+	border-radius: 5px;
+	transform: scale(1.2);
+	
+}
+
+.ourwork
+{
+	width: 100%;
+	height: 740px;
+	background-color: orange;
+
+}
+
+	.ourwork1
+{
+	width: 50%;
+	height: 140px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	font-family: we;
+	color: black;
+	float: left;
+}
+
+	.ourwork2
+{
+	width: 50%;
+	height: 140px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	font-family: menu;
+	font: 7px;
+	color: black;
+	float: right;
+	
+}
+
+.picourwork
+{
+	width: 100%;
+	height: 400px;
+	background: url("../images/brown_02.png");
+}
+
+.ourwork2 a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.afourwork
+{
+	width: 100%;
+	height: 200px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.work1
+{
+	width: 100%;
+	height: 500px;
+	background: url("../images/gogo_02.png");
+	
+}
+
+.work1a
+{
+	width: 100%;
+	height: 200px;
+/*	background-color: pink;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	font-family: we;
+}
+.work1a1
+{
+	width: 50%;
+	height: 200px;
+/*	background-color: red;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	font-family: we;
+	color: white;
+}
+
+.work1a2
+{
+	width: 100%;
+	height: 150px;
+/*	background-color: red;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	font-family: menu;
+	color: white;
+	font-size: 20px;
+}
+
+.work1a3
+{
+	width: 100%;
+	height: 150px;
+	background-color: red;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	font-family: menu;
+	color: white;
+	font-size: 20px;
+}
+
+.picwork
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: white;
+	margin: 0 5px 0 5px;
+}
+
+.picwork img
+{
+border-radius:50%;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+transition: all .2s linear;
+}
+
+.picwork img:hover
+{
+	transform: scale(1.5)
+}
+
+.end
+{
+	width: 100%;
+	height: 800px;
+	background-color: cadetblue;
+}
+.endtext
+{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+.endtextleft
+{
+	width: 50%;
+	height: 100px;
+	background-color: blue;
+	float: left;
+	display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.endtextleft1
+{
+	width: 70%;
+	height: 100px;
+	background-color: cyan;
+	float: left;
+	display: flex;
+/*  justify-content: flex-end;*/
+  align-items: center;
+	font-family: we;
+	font-size: 20px;
+}
+
+.endtextright
+{
+	width: 50%;
+	height: 100px;
+	background-color: rosybrown;
+	float: right;
+	
+}
+
+.textbox
+{
+	
+	width: 100%;
+	height: 700px;
+	background-color: antiquewhite;
+}
+
+.textboxleft
+{
+	
+	width: 50%;
+	height: 700px;
+	background-color: lightpink;
+	float: left;
+}
+
+input {
+  width: 60%;
+  background-color: white;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+	float: right;
+}
+@font-face
+{
+	font-family: menu;
+	src: url("../font/SFUFuturaHeavy.TTF")
+}
+
+@font-face
+{
+	font-family: we;
+	src: url("../font/BodoniXT.ttf")
+}
